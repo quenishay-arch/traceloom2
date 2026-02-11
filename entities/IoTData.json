@@ -1,0 +1,55 @@
+{
+  "name": "IoTData",
+  "type": "object",
+  "properties": {
+    "po_id": {
+      "type": "string",
+      "description": "Related purchase order ID"
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "factory_machine",
+        "warehouse_sensor",
+        "logistics_tracker",
+        "qa_scanner"
+      ],
+      "description": "IoT device type"
+    },
+    "location": {
+      "type": "string",
+      "description": "Factory or warehouse location"
+    },
+    "metric_type": {
+      "type": "string",
+      "enum": [
+        "production_rate",
+        "machine_status",
+        "temperature",
+        "humidity",
+        "defect_detection",
+        "inventory_scan",
+        "shipment_gps"
+      ],
+      "description": "Type of metric"
+    },
+    "metric_value": {
+      "type": "number",
+      "description": "Numeric value"
+    },
+    "metric_unit": {
+      "type": "string",
+      "description": "Unit of measurement"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "normal",
+        "warning",
+        "critical"
+      ],
+      "description": "Status indicator"
+    },
+    "device_id": {
+      "type": "string",
+ 

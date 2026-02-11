@@ -1,0 +1,55 @@
+{
+  "name": "Alert",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Alert title"
+    },
+    "description": {
+      "type": "string",
+      "description": "AI-generated explanation"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "delay_risk",
+        "quality_issue",
+        "port_congestion",
+        "weather_risk",
+        "supplier_issue",
+        "inventory"
+      ],
+      "description": "Alert type"
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "info",
+        "warning",
+        "critical"
+      ],
+      "description": "Alert severity"
+    },
+    "affected_pos": {
+      "type": "array",
+      "description": "List of affected PO numbers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "is_read": {
+      "type": "boolean",
+      "description": "Whether alert has been read"
+    },
+    "suggested_action": {
+      "type": "string",
+      "description": "AI suggested action"
+    }
+  },
+  "required": [
+    "title",
+    "type",
+    "severity"
+  ]
+}

@@ -6,10 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+		5E3BA20B2F3CBABA007FFB94 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5E3BA20D2F3CBAE9007FFB94 /* components.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = components.json; sourceTree = "<group>"; };
+		5E3BA20E2F3CBAFB007FFB94 /* eslint.config.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = eslint.config.js; sourceTree = "<group>"; };
+		5E3BA20F2F3CBB0A007FFB94 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5E3BA2102F3CBB15007FFB94 /* jsconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsconfig.json; sourceTree = "<group>"; };
+		5E3BA2112F3CBB23007FFB94 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		5E3BA2132F3CBB61007FFB94 /* postcss.config.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = postcss.config.js; sourceTree = "<group>"; };
+		5E3BA2142F3CBB7D007FFB94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E3BA2152F3CBB88007FFB94 /* tailwing.config.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tailwing.config.js; sourceTree = "<group>"; };
+		5E3BA2162F3CBB94007FFB94 /* vite.config.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = vite.config.js; sourceTree = "<group>"; };
+		5E3BA2802F3CC53C007FFB94 /* shell.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = shell.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5E3BA2172F3CBBDB007FFB94 /* entities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = entities;
+			sourceTree = "<group>";
+		};
+		5E3BA21D2F3CBC75007FFB94 /* src */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXGroup section */
 		5E3BA2042F3CBA26007FFB94 = {
 			isa = PBXGroup;
 			children = (
+				5E3BA2802F3CC53C007FFB94 /* shell.sh */,
+				5E3BA21D2F3CBC75007FFB94 /* src */,
+				5E3BA2172F3CBBDB007FFB94 /* entities */,
+				5E3BA20B2F3CBABA007FFB94 /* .gitignore */,
+				5E3BA20D2F3CBAE9007FFB94 /* components.json */,
+				5E3BA20E2F3CBAFB007FFB94 /* eslint.config.js */,
+				5E3BA20F2F3CBB0A007FFB94 /* index.html */,
+				5E3BA2102F3CBB15007FFB94 /* jsconfig.json */,
+				5E3BA2112F3CBB23007FFB94 /* package.json */,
+				5E3BA2132F3CBB61007FFB94 /* postcss.config.js */,
+				5E3BA2142F3CBB7D007FFB94 /* README.md */,
+				5E3BA2152F3CBB88007FFB94 /* tailwing.config.js */,
+				5E3BA2162F3CBB94007FFB94 /* vite.config.js */,
 			);
 			sourceTree = "<group>";
 		};

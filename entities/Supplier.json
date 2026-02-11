@@ -1,0 +1,54 @@
+{
+  "name": "Supplier",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Supplier name"
+    },
+    "location": {
+      "type": "string",
+      "description": "Supplier location"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "yarn",
+        "knitting",
+        "dyeing",
+        "logistics"
+      ],
+      "description": "Supplier type"
+    },
+    "reliability_score": {
+      "type": "number",
+      "description": "Historical reliability score"
+    },
+    "esg_rating": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "ESG rating"
+    },
+    "avg_lead_time": {
+      "type": "number",
+      "description": "Average lead time in days"
+    },
+    "active_pos": {
+      "type": "number",
+      "description": "Number of active POs"
+    }
+  },
+  "required": [
+    "name",
+    "type"
+  ]
+}
